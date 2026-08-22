@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A curated collection of videos for curious minds." />
+    <title>Unknown Worlds — Video Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <main>
+        <section class="world-banner" aria-label="Into Unknown Worlds">
+          <div class="banner-copy">
+            <h2>Into Unknown Worlds</h2>
+            <a href="#archive">Explore the videos <span aria-hidden="true">↘</span></a>
+          </div>
+          <p class="banner-coordinate">34.0522° N<br />118.2437° W</p>
+        </section>
+        <div class="banner-channel-link">
+          <a class="edition channel-link" href="https://www.youtube.com/channel/UCSZAU68iKVf9315hQobZsIA/" target="_blank" rel="noreferrer">YOUTUBE CHANNEL <span>↗</span></a>
+        </div>
+
+        <section class="hero">
+          <div>
+            <h1>Every story is<br /><em>a world unknown.</em></h1>
+          </div>
+          <p class="intro">Enter a world of ravens, ancient forests, forgotten wells, golden cities, and seas without stars. Begin with Chapter One—or continue your journey.</p>
+        </section>
+
+        <section class="archive" id="archive">
+          <div class="archive-heading">
+            <h2>VIDEOS</h2>
+            <p><span id="video-count">0</span> VIDEOS</p>
+          </div>
+          <div class="video-grid" id="video-grid"></div>
+        </section>
+      </main>
+
+      <footer>
+        <p>INTO UNKNOWN WORLDS <span>✦</span></p>
+        <a href="https://www.youtube.com/channel/UCSZAU68iKVf9315hQobZsIA/" target="_blank" rel="noreferrer">VISIT THE CHANNEL ↗</a>
+      </footer>
+    </div>
+
+    <dialog id="video-dialog">
+      <button class="dialog-close" id="dialog-close" type="button" aria-label="Close video">×</button>
+      <div class="player-wrap" id="player-wrap"></div>
+      <div class="dialog-copy">
+        <p id="dialog-meta"></p>
+        <h2 id="dialog-title"></h2>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
