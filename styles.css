@@ -189,6 +189,7 @@ kbd { position: absolute; right: 0; padding: 5px 7px; border: 1px solid var(--li
 .video-meta { display: flex; gap: 10px; margin: 16px 0 10px; color: var(--muted); }
 .video-meta span:first-child { color: var(--cyan); }
 .video-title { margin: 0; font-size: clamp(18px, 1.6vw, 24px); line-height: 1.2; letter-spacing: -.025em; }
+.video-summary { margin: 12px 0 0; max-width: 58ch; color: var(--muted); font-size: 13px; line-height: 1.65; }
 
 .empty-state { padding: 80px 20px; text-align: center; border: 1px solid var(--line); }
 .empty-state button { padding: 10px 16px; border: 0; border-bottom: 1px solid; background: transparent; cursor: pointer; }
