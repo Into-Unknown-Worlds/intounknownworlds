@@ -1,4 +1,5 @@
 const videos = [
+  { id: "tbJSqGhjFmw", chapter: 9, title: "Chapter 9 — The Army of the Dead", category: "Chapters", duration: "33:15", year: "IX" },
   { id: "Y7AMYARSkaE", chapter: 8, title: "Chapter 8 — The Kingdom Beneath the Ice", category: "Chapters", duration: "29:27", year: "VIII" },
   { id: "AZNjUiKZARQ", chapter: 7, title: "Chapter 7 — The Sea Without Stars", category: "Chapters", duration: "30:27", year: "VII" },
   { id: "LGb_aQtrmxw", chapter: 6, title: "Chapter 6 — The Wolf in Chains", category: "Chapters", duration: "29:59", year: "VI" },
